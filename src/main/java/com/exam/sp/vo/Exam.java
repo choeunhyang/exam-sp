@@ -1,10 +1,10 @@
 package com.exam.sp.vo;
 
 import lombok.Data;
-import lombok.extern.slf4j.Slf4j;
+import lombok.extern.log4j.Log4j;
 
 @Data
-@Slf4j
+@Log4j
 public class Exam {
 	private Integer num;
 	private String name;
